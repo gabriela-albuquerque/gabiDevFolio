@@ -33,10 +33,16 @@ export const Navbar = () => {
             >
               Sobre mim
             </a>
-            <a href="" className="menu-item cursor-pointer hover:text-white/60">
+            <a
+              onClick={() => alert("Seção em Desenvolvimento")}
+              className="menu-item cursor-pointer hover:text-white/60"
+            >
               Experiência
             </a>
-            <a href="" className="menu-item cursor-pointer hover:text-white/60">
+            <a
+              onClick={() => alert("Seção em Desenvolvimento")}
+              className="menu-item cursor-pointer hover:text-white/60"
+            >
               Educação
             </a>
           </div>
