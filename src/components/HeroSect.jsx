@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { motion } from "motion/react";
 import { useState, useEffect } from "react";
-import heroIllustration from "../assets/images/Hero-illustration2.png";
+import heroIllustration from "../assets/images/Hero-illustration.png";
 import linkedin from "../assets/icons/linkedin.svg";
 import github from "../assets/icons/github.svg";
 import scrollIcon from "../assets/icons/scroll-animation.svg";

@@ -1,7 +1,7 @@
 import { RadarChart } from "./radarChart";
 import { easeInOut, motion } from "motion/react";
 import doc from "../assets/doc/curriculoGabrielaAlbuquerque.pdf";
-import character from "../assets/images/character-removebg-preview.png";
+import character from "../assets/images/ilustracaoMpp.png";
 import js from "../assets/icons/skills-icon/javascript.svg";
 import html from "../assets/icons/skills-icon/html.svg";
 import css from "../assets/icons/skills-icon/css.svg";
@@ -93,7 +93,7 @@ export const AboutMe = () => {
                 className="about-me text-white text-sm leading-5 mt-3 text-justify"
               >
                 Oi, Eu sou Gabriela! Gosto de transformar ideias em experiências
-                digitais que façam sentido as com necessidades do negócio. Como
+                digitais que façam sentido com as necessidades do negócio. Como
                 desenvolvedora frontend, trabalho com React, JavaScript, HTML e
                 CSS para criar sites modernos, acessíveis e responsivos. Curiosa
                 por natureza, estou sempre aprendendo e buscando evoluir em cada
