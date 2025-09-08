@@ -35,11 +35,11 @@ export const ProjectInsights = ({
           <div className="project-insight-text flex flex-col h-full p-4 gap-y-5 mt-5">
             <div className="Project-name text-3xl">{title}</div>
             <div className="Project-overview flex flex-col">
-              <span className="text-lg">Overview</span>
+              <span className="text-lg">Visão geral</span>
               <span className="text-xs text-justify">{desc}</span>
             </div>
             <div className="category text-lg flex flex-col">
-              Category <span className="font-light text-xs">{category}</span>
+              Categoria <span className="font-light text-xs">{category}</span>
             </div>
             <div className="project-tech-stack flex flex-col gap-1">
               <div className="title text-lg">Tech Stack</div>
@@ -51,17 +51,11 @@ export const ProjectInsights = ({
             </div>
             <div className="flex flex-col gap-3 mt-2">
               <span className="text-white text-xs">
-                Get the detailed Report
+                Quer ver o projeto rodando?
               </span>
-              <a
-                onClick={() =>
-                  reportLink == "" &&
-                  alert("Sorry! Currently Report is not available")
-                }
-                href={reportLink}
-              >
+              <a href={reportLink} target="_blank">
                 <button className="border-2 border-color2 text-color2 rounded-full w-1/2 py-2 text-xs hover:bg-color2 hover:text-color3">
-                  Download Now
+                  Veja o deploy
                 </button>
               </a>
             </div>

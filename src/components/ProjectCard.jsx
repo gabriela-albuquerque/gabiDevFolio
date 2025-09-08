@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import {motion} from "motion/react";
+import { motion } from "motion/react";
 export const ProjectCard = ({
   projectImage,
   title,
@@ -13,10 +13,11 @@ export const ProjectCard = ({
   return (
     <>
       <motion.div
-      initial={{ opacity: 0,y:200 }}
-      whileInView={{ opacity: 1,y:0 }}
-      transition={{duration:0.6,ease: "easeOut"}}
-      className="project-card flex flex-col bg-white/5 w-[20rem] h-[20rem] rounded-md py-5 px-3 will-change-transform will-change-opacity">
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="project-card flex flex-col gap-y-4 bg-white/5 w-[20rem] h-[22rem] rounded-md py-5 px-3 will-change-transform will-change-opacity"
+      >
         <div className="project-image bg-white/5 w-full h-2/3 rounded-md flex flex-col justify-between">
           <div className="flex gap-1 py-1 pl-2 h-1/6">
             <div className="size-1 bg-red-500 rounded-full"></div>
@@ -44,11 +45,11 @@ export const ProjectCard = ({
             onClick={() => openInsightsPanel()}
             className="bg-color1 text-white hover:bg-color1Hover rounded-3xl text-center font-semibold cursor-pointer w-1/2 h-[5vh] tracking-widest"
           >
-            Explore Insights
+            Ver Detalhes
           </button>
           <a className="w-1/2" href={githubLink} target="_blank">
             <button className="text-color2 border-2 border-color2 hover:bg-color2 hover:text-color3 rounded-3xl text-center font-semibold cursor-pointer w-full h-[5vh] tracking-widest">
-              View in Github
+              Ver no Github
             </button>
           </a>
         </div>

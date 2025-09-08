@@ -7,7 +7,7 @@ import react from "../assets/icons/skills-icon/react-js.svg";
 import tailwind from "../assets/icons/skills-icon/tailwindcss.svg";
 
 // projectImagess
-import respireX from "../assets/images/projectImages/project10.jpg";
+import reactflix from "../assets/images/projectImages/project1_react-flix.png";
 import insightify from "../assets/images/projectImages/project11.png";
 import qz from "../assets/images/projectImages/project2.png";
 import tesla from "../assets/images/projectImages/project3.png";
@@ -19,20 +19,17 @@ import ngo from "../assets/images/projectImages/project8.png";
 import metashield from "../assets/images/projectImages/project9.png";
 
 export const Projects = {
-  RespireX: {
-    image: respireX,
-    title: "RespireX",
-    subTitle: "Lung Disease Detection System",
+  ReactFlix: {
+    image: reactflix,
+    title: "ReactFlix",
+    subTitle: "Explore filmes da API do TMDB",
     insights: {
-      desc: ` RespireX is a lung disease detection system designed to
-                  analyze X-ray images efficiently. This project simplifies the
-                  diagnostic process by providing real-time insights, improving
-                  accuracy, and reducing diagnostic time for doctors.`,
-      category: "Healthcare, ML, Web Application",
-      techStack: [js, react, tailwind],
-      reportLink: "",
+      desc: ` ReactFlix é uma aplicação web moderna construída com React que consome a API do TMDB), permitindo ao usuário navegar, buscar e visualizar detalhes sobre filmes. O projeto demonstra habilidades avançadas em React, roteamento, consumo de API, manipulação de estados e componentes reutilizáveis.`,
+      category: "Aplicação Web, Integração com API, Componentes Reutilizáveis",
+      techStack: [js, react],
+      reportLink: "https://react-flix-sandy.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/RespireX.git",
+    githubLink: "https://github.com/gabriela-albuquerque/react_flix",
   },
   Insightify: {
     image: insightify,
