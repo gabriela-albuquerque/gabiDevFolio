@@ -10,13 +10,12 @@ import figma from "../assets/icons/skills-icon/figma.svg";
 // projectImagess
 import reactflix from "../assets/images/projectImages/project1_react-flix.png";
 import reactorgano from "../assets/images/projectImages/project2_react-organo.png";
-import tesla from "../assets/images/projectImages/project3.png";
-import emd from "../assets/images/projectImages/project4.png";
+import meteora from "../assets/images/projectImages/project3_meteora.png";
+import reactweather from "../assets/images/projectImages/project4_react-weather.png";
 import algo from "../assets/images/projectImages/project5.png";
 import furni from "../assets/images/projectImages/project6.png";
 import ftc from "../assets/images/projectImages/project7.png";
 import ngo from "../assets/images/projectImages/project8.png";
-import metashield from "../assets/images/projectImages/project9.png";
 
 export const Projects = {
   ReactFlix: {
@@ -45,34 +44,33 @@ export const Projects = {
     },
     githubLink: "https://github.com/IrfanNaikwade28/Insightify.git",
   },
-  MetaShield: {
-    image: metashield,
-    title: "MetaShield",
-    subTitle: "AI-Powered Sensitive Document Classification",
+  Meteora: {
+    image: meteora,
+    title: "Meteora Context API",
+    subTitle: "E-commerce de moda em React",
     insights: {
-      desc: `MetaShield is an AI-powered solution that classifies documents as Sensitive (Y) or Non-Sensitive (N)
-                  using only metadata—no content analysis required! It enhances security and compliance with regulations
-                  like GDPR, HIPAA, and DPDP by automating document classification.`,
-      category: "Cybersecurity, AI/ML, Web Application",
-      techStack: [react, tailwind],
-      reportLink: "",
+      desc: `E-commerce fictício que simula um fluxo real de compra, desenvolvido em React com Context API e useReducer para gerenciamento de estado. O projeto em evolução utiliza useMemo para otimização e Vite para build rápido, explorando práticas modernas de componentização e arquitetura em aplicações React.`,
+      category: "Gerenciamento Global de Estado | useMemo | Context API",
+      techStack: [react, js],
+      reportLink: "https://meteora-context-api-beta.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/MetaShield.git",
+    githubLink: "https://github.com/gabriela-albuquerque/meteora-context-api",
   },
-  qzwz: {
-    // image: qz,
-    title: "Quizwhiz Junction",
-    subTitle: "Online Quiz Platform",
+  ReactWeather: {
+    image: reactweather,
+    title: "React Weather",
+    subTitle: "Clima em tempo real",
     insights: {
-      desc: `Quizwhiz Junction is an interactive web-based quiz application designed to make learning engaging and enjoyable. It offers a wide range of quizzes across various topics, providing users with real-time feedback and performance tracking through a point-based system.`,
-      category: "Education, Interactive Quiz Application, Web Development",
-      techStack: [html, css, js],
-      reportLink: "",
+      desc: `Aplicação em React que consome a API da OpenWeather via Axios para exibir clima atual e previsão de 5 dias. Usa hooks, props, renderização condicional e manipulação de arrays/objetos. Interface responsiva com componentes reutilizáveis e CSS modular.`,
+      category:
+        "Requisições HTTP com Axios | Componentização | Manipulação de Arrays e Objetos",
+      techStack: [react, html, css, js],
+      reportLink: "https://react-weather-gabriela.vercel.app/",
     },
     githubLink: "https://github.com/IrfanNaikwade28/Quizwhiz-Junction.git",
   },
   emd: {
-    image: emd,
+    // image: emd,
     title: "Emedicine",
     subTitle: "Healthcare E-commerce, Web Application",
     insights: {
@@ -133,7 +131,7 @@ export const Projects = {
     githubLink: "https://github.com/IrfanNaikwade28/Flip-the-Card.git",
   },
   tesla: {
-    image: tesla,
+    // image: tesla,
     title: "Tesla",
     subTitle: "A Cloned website",
     insights: {
