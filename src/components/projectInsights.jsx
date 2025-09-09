@@ -55,7 +55,7 @@ export const ProjectInsights = ({
               </span>
               <a href={reportLink} target="_blank">
                 <button className="border-2 border-color2 text-color2 rounded-full w-1/2 py-2 text-xs hover:bg-color2 hover:text-color3">
-                  Veja o deploy
+                  Clique aqui
                 </button>
               </a>
             </div>

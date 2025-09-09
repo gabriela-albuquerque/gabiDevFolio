@@ -1,15 +1,15 @@
 // Icons
+import react from "../assets/icons/skills-icon/react-js.svg";
+import ts from "../assets/icons/skills-icon/typescript.png";
 import js from "../assets/icons/skills-icon/javascript.svg";
+import tailwind from "../assets/icons/skills-icon/tailwindcss.svg";
 import html from "../assets/icons/skills-icon/html.svg";
 import css from "../assets/icons/skills-icon/css.svg";
 import figma from "../assets/icons/skills-icon/figma.svg";
-import react from "../assets/icons/skills-icon/react-js.svg";
-import tailwind from "../assets/icons/skills-icon/tailwindcss.svg";
 
 // projectImagess
 import reactflix from "../assets/images/projectImages/project1_react-flix.png";
-import insightify from "../assets/images/projectImages/project11.png";
-import qz from "../assets/images/projectImages/project2.png";
+import reactorgano from "../assets/images/projectImages/project2_react-organo.png";
 import tesla from "../assets/images/projectImages/project3.png";
 import emd from "../assets/images/projectImages/project4.png";
 import algo from "../assets/images/projectImages/project5.png";
@@ -22,24 +22,26 @@ export const Projects = {
   ReactFlix: {
     image: reactflix,
     title: "ReactFlix",
-    subTitle: "Explore filmes da API do TMDB",
+    subTitle: "Descubra e explore filmes com React",
     insights: {
-      desc: ` ReactFlix é uma aplicação web moderna construída com React que consome a API do TMDB), permitindo ao usuário navegar, buscar e visualizar detalhes sobre filmes. O projeto demonstra habilidades avançadas em React, roteamento, consumo de API, manipulação de estados e componentes reutilizáveis.`,
-      category: "Aplicação Web, Integração com API, Componentes Reutilizáveis",
-      techStack: [js, react],
+      desc: ` Aplicação em React com roteamento SPA, consumo da API TMDB, hooks para gerenciamento de estado e componentes reutilizáveis. Desenvolvida com Vite, variáveis de ambiente e CSS modularizado, aplicando boas práticas de acessibilidade e UX.`,
+      category:
+        "Consumo de API Externa | Roteamento Avançado | Componentização Reutilizável",
+      techStack: [react, js, css],
       reportLink: "https://react-flix-sandy.vercel.app/",
     },
     githubLink: "https://github.com/gabriela-albuquerque/react_flix",
   },
-  Insightify: {
-    image: insightify,
-    title: "Insightify",
-    subTitle: "YouTube Comment Analyzer Tool",
+  ReactOrgano: {
+    image: reactorgano,
+    title: "Organo em React + TS",
+    subTitle: "Gerenciamento de colaboradores com tipagem forte e UI dinâmica.",
     insights: {
-      desc: `Insightify is a YouTube comment sentiment and toxicity analysis app built with React Native. It leverages AI and NLP to deliver instant feedback on audience emotion, public demands, and content suggestions. Ideal for creators aiming to understand and improve their engagement.`,
-      category: "AI, NLP, React Native, Mobile App",
-      techStack: [react, tailwind],
-      reportLink: "",
+      desc: `Aplicação para organizar colaboradores em times, com cadastro via formulário, edição dinâmica e UI customizável. Trabalha tipagem de props, funções e eventos, uso de interfaces, fragmentos React e renderização condicional.`,
+      category:
+        "Manipulação de Estado | Tipagem de Props e Eventos | Renderização Condicional",
+      techStack: [react, ts, figma],
+      reportLink: "https://organo-migrado-ts.vercel.app/",
     },
     githubLink: "https://github.com/IrfanNaikwade28/Insightify.git",
   },
@@ -58,7 +60,7 @@ export const Projects = {
     githubLink: "https://github.com/IrfanNaikwade28/MetaShield.git",
   },
   qzwz: {
-    image: qz,
+    // image: qz,
     title: "Quizwhiz Junction",
     subTitle: "Online Quiz Platform",
     insights: {
