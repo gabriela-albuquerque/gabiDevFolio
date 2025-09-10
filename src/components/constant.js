@@ -25,7 +25,7 @@ export const Projects = {
     title: "ReactFlix",
     subTitle: "Descubra e explore filmes com React",
     insights: {
-      desc: ` Aplicação em React com roteamento SPA, consumo da API TMDB, hooks para gerenciamento de estado e componentes reutilizáveis. Desenvolvida com Vite, variáveis de ambiente e CSS modularizado, aplicando boas práticas de acessibilidade e UX.`,
+      desc: `Catálogo moderno de filmes que permite explorar, buscar e visualizar detalhes como avaliação, orçamento e duração. Utiliza roteamento SPA, consumo da API TMDB, hooks para gerenciamento de estado e componentes reutilizáveis. Desenvolvida com Vite, variáveis de ambiente e CSS modularizado, aplicando boas práticas de acessibilidade e UX.`,
       category:
         "Consumo de API Externa | Roteamento Avançado | Componentização Reutilizável",
       techStack: [react, js, html, css],
