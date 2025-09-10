@@ -29,9 +29,9 @@ export const AboutMe = () => {
     <>
       <div id="About" className="flex justify-center">
         <div className="w-full px-3 max-w-[60rem] h-full">
-          <div className="project-title text-5xl md:text-8xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex max-md:justify-center items-center">
+          <div className="project-title text-5xl md:text-8xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex justify-center items-center">
             <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
-            <motion.div className="z-30 ">
+            <motion.div className="z-30 text-center">
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
