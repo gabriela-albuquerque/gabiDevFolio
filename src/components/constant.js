@@ -14,9 +14,9 @@ import reactorgano from "../assets/images/projectImages/project2_react-organo.pn
 import meteora from "../assets/images/projectImages/project3_meteora.png";
 import reactweather from "../assets/images/projectImages/project4_react-weather.png";
 import tasklist from "../assets/images/projectImages/project5_task-list.png";
-import furni from "../assets/images/projectImages/project6.png";
-import ftc from "../assets/images/projectImages/project7.png";
-import ngo from "../assets/images/projectImages/project8.png";
+import login from "../assets/images/projectImages/project6_react-login.png";
+import cinetag from "../assets/images/projectImages/project7_cinetag-react.png";
+import spaceapp from "../assets/images/projectImages/project8_space-app.png";
 
 export const Projects = {
   ReactFlix: {
@@ -70,7 +70,7 @@ export const Projects = {
     },
     githubLink: "https://github.com/IrfanNaikwade28/Quizwhiz-Junction.git",
   },
-  emd: {
+  TaskList: {
     image: tasklist,
     title: "Task List",
     subTitle: "Gerencie tarefas com React",
@@ -83,45 +83,49 @@ export const Projects = {
     },
     githubLink: "https://github.com/gabriela-albuquerque/TaskListReactTailwind",
   },
-  algo: {
-    // image: algo,
-    title: "Algorithm Analyzer",
-    subTitle: "CMD based tool",
+  Login: {
+    image: login,
+    title: "React Login",
+    subTitle: "Autenticação com estilo e acessibilidade",
     insights: {
-      desc: `AlgoAnalyzer is an interactive platform designed to help users understand and visualize the functioning of various algorithms and data structures. The application provides step-by-step visual representations, making complex concepts easier to grasp.`,
-      category: "Education, Data Structures & Algorithms, Visualization Tool",
-      techStack: [],
-      reportLink: "",
+      desc: `Interface de autenticaçãoque simula o fluxo de login, registro e recuperação de senha. Construída em React com hooks, roteamento e componentes reutilizáveis. Inclui validação de formulário, feedback visual, acessibilidade, efeitos de glassmorphism e navegação entre páginas com React Router.`,
+      category:
+        "Feedback Visual e UX | Glassmorphism Design | Componentização Reutilizável",
+      techStack: [react, js, html, css],
+      reportLink: "https://react-login-blond-omega.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/AlgoAnalyzer.git",
+    githubLink: "https://github.com/gabriela-albuquerque/react-login",
   },
-  furni: {
-    image: furni,
-    title: "Furni",
-    subTitle: "Ecommerce for Furniture",
+  CineTag: {
+    image: cinetag,
+    title: "CineTag React",
+    subTitle: "Seus vídeos favoritos organizados",
     insights: {
-      desc: `Furni Web is a modern e-commerce platform for furniture, showcasing a sleek and responsive design built using Tailwind CSS. The application offers an intuitive user interface, seamless navigation, and visually appealing layouts to enhance the shopping experience.`,
-      category: "E-commerce, Web Design, Responsive Web Application",
-      techStack: [html, css, js],
-      reportLink: "",
+      desc: `Catálogo de vídeos para salvar, organizar e assistir seus favoritos. Aplicação em React com Context API, React Router e CSS Modules. Consome uma API simulada para exibir vídeos, permite favoritar, reproduzir no player integrado e navegar entre páginas, aplicando hooks, roteamento dinâmico e renderização condicional, incluindo tratamento de erros com página 404 personalizada.`,
+      category:
+        "Consumo de API Simulada | CSS Modules | Ciclo de Vida (useEffect)",
+      techStack: [react, js, css, git],
+      reportLink: "https://cinetag-praticando-react-com-js.vercel.app/",
     },
     githubLink:
-      "https://github.com/IrfanNaikwade28/Furni-Web-using-Tailwind.git",
+      "https://github.com/gabriela-albuquerque/cinetag-praticando-react-com-js",
   },
-  ngo: {
-    image: ngo,
-    title: "NGO Portfolio",
-    subTitle: "village Portfolio",
+  SpaceApp: {
+    image: spaceapp,
+    title: "SpaceApp",
+    subTitle: "Sua galeria interativa do espaço",
     insights: {
-      desc: `The NGO Portfolio is a professional website designed to showcase the mission, vision, and activities of a non-governmental organization. It provides an engaging platform to highlight initiatives, achievements, and opportunities for involvement. `,
-      category: "Portfolio Website, Web Development",
-      techStack: [react, tailwind, figma, html, css, js],
-      reportLink: "",
+      desc: `Aplicação React com styled-components, gerenciamento de estado com hooks e modais para zoom. Possui filtragem por texto e tags, favoritar imagens e interface modular com componentes reutilizáveis e estilizados dinamicamente.`,
+      category:
+        "Filtragem Dinâmica (texto e tags) | Styled-components | Modal e Interação (zoom e favoritos)",
+      techStack: [react, html, css, js],
+      reportLink: "https://space-app-componentes-estilizados.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/NGO-Portfolio.git",
+    githubLink:
+      "https://github.com/gabriela-albuquerque/space-app-componentes-estilizados/tree/main",
   },
   ftc: {
-    image: ftc,
+    // image: ftc,
     title: "Flip the Card",
     subTitle: "Card Game on web",
     insights: {
