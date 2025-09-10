@@ -48,7 +48,8 @@ export const ProjectSection = () => {
           >
             <div className="bg-color1/40 rounded-full absolute size-40 blur-[50px] z-10"></div>
             <div>Projetos</div>
-            <div>Selecionados</div>
+            <div>em</div>
+            <div>Destaque</div>
           </motion.div>
         </div>
         <div className="h-full px-3 flex flex-wrap justify-center gap-10">
