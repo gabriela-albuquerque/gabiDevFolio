@@ -6,13 +6,14 @@ import tailwind from "../assets/icons/skills-icon/tailwindcss.svg";
 import html from "../assets/icons/skills-icon/html.svg";
 import css from "../assets/icons/skills-icon/css.svg";
 import figma from "../assets/icons/skills-icon/figma.svg";
+import git from "../assets/icons/skills-icon/git.png";
 
 // projectImagess
 import reactflix from "../assets/images/projectImages/project1_react-flix.png";
 import reactorgano from "../assets/images/projectImages/project2_react-organo.png";
 import meteora from "../assets/images/projectImages/project3_meteora.png";
 import reactweather from "../assets/images/projectImages/project4_react-weather.png";
-import algo from "../assets/images/projectImages/project5.png";
+import tasklist from "../assets/images/projectImages/project5_task-list.png";
 import furni from "../assets/images/projectImages/project6.png";
 import ftc from "../assets/images/projectImages/project7.png";
 import ngo from "../assets/images/projectImages/project8.png";
@@ -26,7 +27,7 @@ export const Projects = {
       desc: ` Aplicação em React com roteamento SPA, consumo da API TMDB, hooks para gerenciamento de estado e componentes reutilizáveis. Desenvolvida com Vite, variáveis de ambiente e CSS modularizado, aplicando boas práticas de acessibilidade e UX.`,
       category:
         "Consumo de API Externa | Roteamento Avançado | Componentização Reutilizável",
-      techStack: [react, js, css],
+      techStack: [react, js, html, css],
       reportLink: "https://react-flix-sandy.vercel.app/",
     },
     githubLink: "https://github.com/gabriela-albuquerque/react_flix",
@@ -39,7 +40,7 @@ export const Projects = {
       desc: `Aplicação para organizar colaboradores em times, com cadastro via formulário, edição dinâmica e UI customizável. Trabalha tipagem de props, funções e eventos, uso de interfaces, fragmentos React e renderização condicional.`,
       category:
         "Manipulação de Estado | Tipagem de Props e Eventos | Renderização Condicional",
-      techStack: [react, ts, figma],
+      techStack: [react, ts, figma, git],
       reportLink: "https://organo-migrado-ts.vercel.app/",
     },
     githubLink: "https://github.com/IrfanNaikwade28/Insightify.git",
@@ -51,7 +52,7 @@ export const Projects = {
     insights: {
       desc: `E-commerce fictício que simula um fluxo real de compra, desenvolvido em React com Context API e useReducer para gerenciamento de estado. O projeto em evolução utiliza useMemo para otimização e Vite para build rápido, explorando práticas modernas de componentização e arquitetura em aplicações React.`,
       category: "Gerenciamento Global de Estado | useMemo | Context API",
-      techStack: [react, js],
+      techStack: [react, js, git],
       reportLink: "https://meteora-context-api-beta.vercel.app/",
     },
     githubLink: "https://github.com/gabriela-albuquerque/meteora-context-api",
@@ -70,19 +71,20 @@ export const Projects = {
     githubLink: "https://github.com/IrfanNaikwade28/Quizwhiz-Junction.git",
   },
   emd: {
-    // image: emd,
-    title: "Emedicine",
-    subTitle: "Healthcare E-commerce, Web Application",
+    image: tasklist,
+    title: "Task List",
+    subTitle: "Gerencie tarefas com React",
     insights: {
-      desc: `E-Medicine is an online platform designed to streamline the purchase and management of medicines. The application offers users a convenient way to browse, search, and order medications, ensuring quick access to essential healthcare products. `,
-      category: "Healthcare site, Web Development",
-      techStack: [react, tailwind, html, css, js],
-      reportLink: "",
+      desc: `Aplicação em React com Tailwind CSS e React Router para criar, concluir, excluir e detalhar tarefas. Persistência com localStorage, formulários controlados, uso de hooks, estilização condicional e componentes reutilizáveis. `,
+      category:
+        "Persistência com localStorage | Formulários Controlados | Navegação com React Router",
+      techStack: [react, tailwind, html, js],
+      reportLink: "https://task-list-react-tailwind.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/E-medicine.git",
+    githubLink: "https://github.com/gabriela-albuquerque/TaskListReactTailwind",
   },
   algo: {
-    image: algo,
+    // image: algo,
     title: "Algorithm Analyzer",
     subTitle: "CMD based tool",
     insights: {
@@ -129,17 +131,5 @@ export const Projects = {
       reportLink: "",
     },
     githubLink: "https://github.com/IrfanNaikwade28/Flip-the-Card.git",
-  },
-  tesla: {
-    // image: tesla,
-    title: "Tesla",
-    subTitle: "A Cloned website",
-    insights: {
-      desc: `The Tesla Web Project is a visually stunning and responsive landing page inspired by Tesla's innovative brand. The project showcases a sleek design with smooth animations and an intuitive layout, highlighting Tesla's vehicles and technology. Built with modern web development practices, it provides an immersive experience that captures the essence of a cutting-edge automotive brand.`,
-      category: "Web Design, Landing Page",
-      techStack: [html, css, js],
-      reportLink: "",
-    },
-    githubLink: "https://github.com/IrfanNaikwade28/Web-Project-Tesla.git",
   },
 };
