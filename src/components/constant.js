@@ -17,6 +17,7 @@ import tasklist from "../assets/images/projectImages/project5_task-list.png";
 import login from "../assets/images/projectImages/project6_react-login.png";
 import cinetag from "../assets/images/projectImages/project7_cinetag-react.png";
 import spaceapp from "../assets/images/projectImages/project8_space-app.png";
+import aprenser from "../assets/images/projectImages/project9_aprenser.png";
 
 export const Projects = {
   ReactFlix: {
@@ -41,9 +42,9 @@ export const Projects = {
       category:
         "Manipulação de Estado | Tipagem de Props e Eventos | Renderização Condicional",
       techStack: [react, ts, figma, git],
-      reportLink: "https://organo-migrado-ts.vercel.app/",
+      reportLink: "https://organo-azure-theta.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/Insightify.git",
+    githubLink: "https://github.com/gabriela-albuquerque/Organo-migrado-TS",
   },
   Meteora: {
     image: meteora,
@@ -68,7 +69,7 @@ export const Projects = {
       techStack: [react, html, css, js],
       reportLink: "https://react-weather-gabriela.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/Quizwhiz-Junction.git",
+    githubLink: "https://github.com/gabriela-albuquerque/react_weather",
   },
   TaskList: {
     image: tasklist,
@@ -77,7 +78,7 @@ export const Projects = {
     insights: {
       desc: `Aplicação em React com Tailwind CSS e React Router para criar, concluir, excluir e detalhar tarefas. Persistência com localStorage, formulários controlados, uso de hooks, estilização condicional e componentes reutilizáveis. `,
       category:
-        "Persistência com localStorage | Formulários Controlados | Navegação com React Router",
+        "Persistência em localStorage | Formulários Controlados | Navegação com React Router",
       techStack: [react, tailwind, html, js],
       reportLink: "https://task-list-react-tailwind.vercel.app/",
     },
@@ -124,16 +125,17 @@ export const Projects = {
     githubLink:
       "https://github.com/gabriela-albuquerque/space-app-componentes-estilizados/tree/main",
   },
-  ftc: {
-    // image: ftc,
-    title: "Flip the Card",
-    subTitle: "Card Game on web",
+  Aprenser: {
+    image: aprenser,
+    title: "Aprenser",
+    subTitle: "Landing page otimizada para SEO",
     insights: {
-      desc: `Flip the Card is an engaging and interactive card-matching game designed for fun and cognitive skill enhancement. The game challenges users to match pairs of cards through memory and concentration. With its visually appealing design and smooth functionality, Flip the Card offers an entertaining experience while encouraging mental agility.`,
-      category: "Game, Web Development, Interactive Application",
-      techStack: [html, css, js],
-      reportLink: "",
+      desc: `Landing page responsiva estruturada com HTML5 e estilizada com CSS3. Inclui uso de tags semânticas, Flexbox, variáveis CSS, cabeçalho fixo com position: sticky e layout otimizado para telas de 1440px, priorizando boas práticas de acessibilidade e SEO.`,
+      category:
+        "HTML5 Semântico |  Boas práticas de Acessibilidade e SEO | CSS3 Avançado",
+      techStack: [html, css, js, git],
+      reportLink: "https://projeto-aprenser-bice.vercel.app/",
     },
-    githubLink: "https://github.com/IrfanNaikwade28/Flip-the-Card.git",
+    githubLink: "https://github.com/gabriela-albuquerque/projeto_aprenser",
   },
 };
