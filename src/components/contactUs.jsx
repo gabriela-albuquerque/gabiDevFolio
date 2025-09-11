@@ -40,7 +40,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      <div id="Contact" className="md:h-screen mt-20">
+      <div id="Contact" className="mt-20">
         <div className="project-title text-7xl md:text-9xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex items-center justify-center">
           <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
           <div className="z-30 animate-pulse flex flex-col gap-y-8 items-center">

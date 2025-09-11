@@ -56,7 +56,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="text-white font-extralight text-xs text-center my-5">
+        <div className="text-white font-extralight text-xs text-center mt-5">
           <div className="title">
             ©2025 Gabriela Albuquerque. Todos os direitos reservados.
           </div>
