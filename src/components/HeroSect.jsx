@@ -137,7 +137,7 @@ export const HeroSect = () => {
               src={heroIllustration}
               alt=""
             />
-            <div className="absolute bottom-40 md:bottom-5">
+            <div className="absolute bottom-[9rem] md:bottom-[4.25rem]">
               <div className="scroll-icon">
                 <motion.img
                   initial={{ opacity: 0 }}
