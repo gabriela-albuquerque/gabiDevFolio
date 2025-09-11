@@ -33,7 +33,7 @@ export const Navbar = () => {
             >
               Sobre mim
             </a>
-            <a
+            {/* <a
               onClick={() => alert("Seção em Desenvolvimento")}
               className="menu-item cursor-pointer hover:text-white/60"
             >
@@ -44,7 +44,7 @@ export const Navbar = () => {
               className="menu-item cursor-pointer hover:text-white/60"
             >
               Educação
-            </a>
+            </a> */}
           </div>
         </nav>
       </div>
@@ -83,7 +83,7 @@ export const Navbar = () => {
           >
             Sobre mim
           </a>
-          <a
+          {/* <a
             onClick={() => setToggle(!toggle)}
             href="#"
             className="menu-item cursor-pointer"
@@ -96,7 +96,7 @@ export const Navbar = () => {
             className="menu-item cursor-pointer"
           >
             Educação
-          </a>
+          </a> */}
           <a
             onClick={() => setToggle(!toggle)}
             href="#Contact"
