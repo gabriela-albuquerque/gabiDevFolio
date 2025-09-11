@@ -136,7 +136,7 @@ export const AboutMe = () => {
               </motion.div>
             </div>
           </div>
-          <div className="h-screen flex max-md:flex-col md:items-center gap-5">
+          <div className="md:h-screen flex max-md:flex-col md:items-center gap-5">
             <div className="flex flex-col md:w-1/2 h-3/4">
               <div className="flex flex-col justify-center p-5 max-md:items-center">
                 <motion.div
@@ -159,7 +159,7 @@ export const AboutMe = () => {
                   criar interfaces digitais dinâmicas, funcionais e intuitivas.
                 </motion.div>
               </div>
-              <div className="skill-icons flex justify-center items-center px-5">
+              <div className="skill-icons flex justify-center items-center p-5">
                 <div className="grid grid-cols-5 gap-5 w-full justify-items-center">
                   {skillIcons.map((icon, index) => (
                     <motion.img
