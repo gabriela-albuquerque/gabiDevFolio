@@ -15,7 +15,7 @@ export const Footer = () => {
           <a href="#About" className="nav-option cursor-pointer">
             Sobre Mim
           </a>
-          <a
+          {/* <a
             onClick={() => alert("Seção em Desenvolvimento")}
             className="nav-option cursor-pointer"
           >
@@ -26,7 +26,7 @@ export const Footer = () => {
             className="nav-option cursor-pointer"
           >
             Educação
-          </a>
+          </a> */}
         </div>
         <div className="icons w-full flex justify-center mt-5 items-center gap-5">
           <div className="icon">
