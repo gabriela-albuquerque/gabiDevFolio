@@ -58,7 +58,7 @@ export const AboutMe = () => {
               </motion.div>
             </motion.div>
           </div>
-          <div className="Me h-screen relative flex max-md:flex-col items-center py-5 md:mt-20">
+          <div className="h-screen relative flex max-md:flex-col items-center py-5 md:mt-20">
             <div className="w-full md:w-1/2 flex justify-center">
               <motion.div
                 initial={{ opacity: 0, filter: "blur(50px)", scale: 0 }}
@@ -107,7 +107,7 @@ export const AboutMe = () => {
             </div>
             <div className="button"></div>
           </div>
-          <div className="project-title h-screen flex justify-center items-center">
+          <div className="project-title h-screen flex justify-center items-center mt-20 md:mt-0">
             <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
             <div className="z-30 font-extrabold uppercase text-white leading-snug md:leading-snug text-5xl md:text-8xl tracking-wide">
               <motion.div
