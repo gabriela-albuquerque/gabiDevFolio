@@ -41,9 +41,9 @@ export const ContactUs = () => {
   return (
     <>
       <div id="Contact" className="h-screen">
-        <div className="project-title text-7xl md:text-9xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex items-center md:justify-center">
+        <div className="project-title text-7xl md:text-9xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex items-center justify-center">
           <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
-          <div className="z-30 animate-pulse pl-5 flex flex-col gap-y-8 items-center">
+          <div className="z-30 animate-pulse flex flex-col gap-y-8 items-center">
             <motion.div
               initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
