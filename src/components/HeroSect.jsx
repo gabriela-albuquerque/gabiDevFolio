@@ -76,7 +76,7 @@ export const HeroSect = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
-                  className="bg-color1 hover:bg-color1Hover w-[14rem] md:w-[12rem] rounded-3xl uppercase text-center font-semibold cursor-pointer py-2"
+                  className="bg-color1 hover:bg-color1Hover w-[12rem] rounded-3xl uppercase text-center font-semibold cursor-pointer py-2"
                 >
                   Explore Projetos
                 </motion.button>
@@ -91,7 +91,7 @@ export const HeroSect = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
-                  className="text-color2 border-2 border-color2 hover:bg-color2 hover:text-color3 rounded-3xl w-[14rem] md:w-[12rem] uppercase text-center font-semibold cursor-pointer py-2"
+                  className="text-color2 border-2 border-color2 hover:bg-color2 hover:text-color3 rounded-3xl w-[12rem] uppercase text-center font-semibold cursor-pointer py-2"
                 >
                   Entre em contato
                 </motion.button>
