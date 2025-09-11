@@ -40,7 +40,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      <div id="Contact" className="h-screen">
+      <div id="Contact" className="md:h-screen mt-20">
         <div className="project-title text-7xl md:text-9xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex items-center justify-center">
           <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
           <div className="z-30 animate-pulse flex flex-col gap-y-8 items-center">
@@ -70,7 +70,7 @@ export const ContactUs = () => {
             </motion.div>
           </div>
         </div>
-        <div className="form h-screen py-10 px-3 flex max-md:flex-col mt-10 gap-5">
+        <div className="form md:h-screen py-10 px-3 flex max-md:flex-col mt-10 gap-5">
           <div className="illustration w-full flex justify-center items-center h-1/4 md:h-full">
             <motion.img
               initial={{ opacity: 0, scale: 0 }}
@@ -83,7 +83,7 @@ export const ContactUs = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col gap-8 py-10 px-3 w-full items-center h-full rounded-xl"
+            className="flex flex-col gap-8 py-10 px-3 w-full items-center h-screen md:h-full rounded-xl"
           >
             <div className="input-name w-full md:w-3/4">
               <motion.input
