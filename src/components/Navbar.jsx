@@ -102,7 +102,7 @@ export const Navbar = () => {
             href="#Contact"
             className="buttons w-full flex flex-col items-center text-white mt-3 gap-3 text-[11px] tracking-widest"
           >
-            <button className="text-[#80FFD2] border-2 border-[#80FFD2] hover:bg-[#80FFD2] hover:text-[#161B23] rounded-3xl w-[70vw] py-2 uppercase text-center font-semibold cursor-pointer">
+            <button className="text-[#BB86FC] border-2 border-[#BB86FC] hover:bg-[#BB86FC] hover:text-[#161B23] rounded-3xl w-[70vw] py-2 uppercase text-center font-semibold cursor-pointer">
               Entrar em Contato
             </button>
           </a>

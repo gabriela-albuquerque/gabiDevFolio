@@ -30,7 +30,7 @@ export const AboutMe = () => {
       <div id="About" className="flex justify-center">
         <div className="w-full px-3 max-w-[60rem] h-full">
           <div className="project-title text-5xl md:text-8xl h-screen tracking-wide font-extrabold leading-snug uppercase text-white flex justify-center items-center">
-            <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
+            <div className="bg-color1Hover/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
             <motion.div className="z-30 text-center">
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
@@ -72,7 +72,7 @@ export const AboutMe = () => {
                   src={character}
                   alt=""
                 />
-                <div className="absolute w-full h-full z-10 bg-color1 custom-radius"></div>
+                <div className="absolute w-full h-full z-10 bg-color1Hover custom-radius"></div>
               </motion.div>
             </div>
             <div className="AboutMeText p-5 flex flex-col mt-5 gap-y-3 md:w-1/2">
@@ -100,7 +100,7 @@ export const AboutMe = () => {
                 projeto.
               </motion.div>
               <a href={doc} target="_blank">
-                <button className="bg-color1 text-white hover:bg-color1Hover rounded-3xl text-center font-semibold cursor-pointer w-2/3 h-[5vh] tracking-widest text-sm mt-5">
+                <button className="bg-color1Hover text-white hover:bg-color1 rounded-3xl text-center font-semibold cursor-pointer w-2/3 h-[5vh] tracking-widest text-sm mt-5">
                   Download CV
                 </button>
               </a>
@@ -108,7 +108,7 @@ export const AboutMe = () => {
             <div className="button"></div>
           </div>
           <div className="project-title h-screen flex justify-center items-center mt-20 md:mt-0">
-            <div className="bg-color1/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
+            <div className="bg-color1Hover/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
             <div className="z-30 font-extrabold uppercase text-white leading-snug md:leading-snug text-5xl md:text-8xl tracking-wide">
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
@@ -180,7 +180,7 @@ export const AboutMe = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-color3 px-3 text-lg font-semibold tracking-wide bg-color2 rounded-3xl md:text-base"
+                className="text-color3 px-3 text-lg font-semibold tracking-wide bg-color1Hover rounded-3xl md:text-base"
               >
                 Radar de Competências
               </motion.div>

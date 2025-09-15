@@ -34,7 +34,9 @@ export const ContactUs = () => {
       const result = await response.json();
 
       if (!response.ok) {
-        throw new Error(result.error || "HTTP error! status: " + response.status);
+        throw new Error(
+          result.error || "HTTP error! status: " + response.status
+        );
       }
 
       setStatus("Mensagem enviada com sucesso!");
@@ -98,7 +100,7 @@ export const ContactUs = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 autoComplete="off"
-                className="bg-transparent border-color2 border-b py-2 px-3 w-full placeholder:text-color2/60 pl-3 focus:outline-none text-color2"
+                className="bg-transparent border-color1 border-b py-2 px-3 w-full placeholder:text-color1/60 pl-3 focus:outline-none text-color1"
                 type="text"
                 name="name"
                 value={formData.name}
@@ -112,7 +114,7 @@ export const ContactUs = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 autoComplete="off"
-                className="bg-transparent border-color2 border-b py-2 px-3 w-full placeholder:text-color2/60 pl-3 focus:outline-none text-color2"
+                className="bg-transparent border-color1 border-b py-2 px-3 w-full placeholder:text-color1/60 pl-3 focus:outline-none text-color1"
                 type="email"
                 name="email"
                 value={formData.email}
@@ -126,7 +128,7 @@ export const ContactUs = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 autoComplete="off"
-                className="bg-transparent border-color2 border-b py-2 px-3 w-full placeholder:text-color2/60 pl-3 focus:outline-none text-color2"
+                className="bg-transparent border-color1 border-b py-2 px-3 w-full placeholder:text-color1/60 pl-3 focus:outline-none text-color1"
                 type="tel"
                 name="phone"
                 value={formData.phone}
@@ -141,7 +143,7 @@ export const ContactUs = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 rows={5}
                 autoComplete="off"
-                className="bg-transparent border-color2 border-b rounded-none py-2 px-3 w-full placeholder:text-color2/60 pl-3 focus:outline-none text-color2 resize-none"
+                className="bg-transparent border-color1 border-b rounded-none py-2 px-3 w-full placeholder:text-color1/60 pl-3 focus:outline-none text-color1 resize-none"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
@@ -150,11 +152,11 @@ export const ContactUs = () => {
             </div>
             <button
               type="submit"
-              className="bg-color2 text-color3 hover:bg-color2/80 hover:scale-105 transition duration-200 rounded-xl text-center font-semibold cursor-pointer w-2/3 h-[5vh] tracking-wide self-center md:w-[15rem]"
+              className="bg-color1 text-color3 hover:bg-color1/80 hover:scale-105 transition duration-200 rounded-xl text-center font-semibold cursor-pointer w-2/3 h-[5vh] tracking-wide self-center md:w-[15rem]"
             >
               {status === "Enviando..." ? "Enviando..." : "Enviar"}
             </button>
-            <p className="text-color2 text-xs">{status}</p>
+            <p className="text-color1 text-xs">{status}</p>
           </form>
         </div>
         <Footer />
