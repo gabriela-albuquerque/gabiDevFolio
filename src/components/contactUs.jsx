@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import msgIcon from "../assets/icons/mail.png";
 import { Footer } from "./footer";
-import { Resend } from "resend";
 
 export const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -24,16 +23,21 @@ export const ContactUs = () => {
     setStatus("Enviando...");
 
     try {
-      const resend = new Resend(import.meta.env.VITE_RESEND_API_KEY);
-
-      await resend.emails.send({
-        from: "aaaaaaaa@resend.dev",
-        to: "gabrielabalbuquer@outlook.com",
-        subject: `Entre em contato com ${formData.name}`,
-        html: `<p>Você recebeu uma mensagem de ${formData.name} (${formData.email}, ${formData.phone}):</p><p>${formData.message}</p>`,
+      const response = await fetch("/api/server", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
 
-      setStatus("Mensagem enviada!");
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "HTTP error! status: " + response.status);
+      }
+
+      setStatus("Mensagem enviada com sucesso!");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
       console.error("Erro:", error);
