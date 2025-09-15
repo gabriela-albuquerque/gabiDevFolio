@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     try {
       await resend.emails.send({
         from: "onboarding@resend.dev", // Domínio verificado no Resend
-        to: "gabrielabalbuquerque@outlook.com", // TROQUE PELO SEU EMAIL DE DESTINO
+        to: "gabrielabalbuquerque@outlook.com",
         subject: `Contato de ${name} pelo Portfólio`,
         html: `
           <p><strong>Nome:</strong> ${name}</p>
