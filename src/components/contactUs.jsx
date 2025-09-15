@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import msgIcon from "../assets/icons/mail.png";
 import { Footer } from "./footer";
-import { supabase } from "../supabaseClient";
+import { Resend } from "resend";
 
 export const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -24,11 +24,14 @@ export const ContactUs = () => {
     setStatus("Enviando...");
 
     try {
-      const { error } = await supabase.from("contatos").insert([formData]);
+      const resend = new Resend(import.meta.env.VITE_RESEND_API_KEY);
 
-      if (error) {
-        throw error;
-      }
+      await resend.emails.send({
+        from: "aaaaaaaa@resend.dev",
+        to: "gabrielabalbuquer@outlook.com",
+        subject: `Entre em contato com ${formData.name}`,
+        html: `<p>Você recebeu uma mensagem de ${formData.name} (${formData.email}, ${formData.phone}):</p><p>${formData.message}</p>`,
+      });
 
       setStatus("Mensagem enviada!");
       setFormData({ name: "", email: "", phone: "", message: "" });
