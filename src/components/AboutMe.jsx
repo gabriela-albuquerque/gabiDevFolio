@@ -175,7 +175,7 @@ export const AboutMe = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center md:w-1/2 h-3/4 mt-20 md:mt-0">
+            <div className="flex flex-col items-center md:w-1/2 h-96 md:h-3/4 mt-20 md:mt-0">
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
