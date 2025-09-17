@@ -60,7 +60,7 @@ export const Footer = () => {
           <div className="title">
             ©2025 Gabriela Albuquerque. Todos os direitos reservados.
           </div>
-          <div className="title">🚀Construindo realidades com código</div>
+          <div className="title">🚀 Construindo realidades com código</div>
           <div className="title">Obrigada pela visita!.</div>
         </div>
       </div>

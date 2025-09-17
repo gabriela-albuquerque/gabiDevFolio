@@ -63,7 +63,7 @@ export const Projects = {
     title: "React Weather",
     subTitle: "Clima em tempo real",
     insights: {
-      desc: `Aplicação em React que consome a API da OpenWeather via Axios para exibir clima atual e previsão de 5 dias. Usa hooks, props, renderização condicional e manipulação de arrays/objetos. Interface responsiva com componentes reutilizáveis e CSS modular.`,
+      desc: `Aplicação em React que consome a API da OpenWeather via Axios para exibir o clima atual e a previsão de 5 dias. Usa hooks, props, renderização condicional e manipulação de arrays/objetos. Interface responsiva com componentes reutilizáveis e CSS modular.`,
       category:
         "Requisições HTTP com Axios | Componentização | Manipulação de Arrays e Objetos",
       techStack: [react, html, css, js],
@@ -89,7 +89,7 @@ export const Projects = {
     title: "React Login",
     subTitle: "Autenticação com estilo e acessibilidade",
     insights: {
-      desc: `Interface de autenticaçãoque simula o fluxo de login, registro e recuperação de senha. Construída em React com hooks, roteamento e componentes reutilizáveis. Inclui validação de formulário, feedback visual, acessibilidade, efeitos de glassmorphism e navegação entre páginas com React Router.`,
+      desc: `Interface de autenticação que simula o fluxo de login, registro e recuperação de senha. Construída em React com hooks, roteamento e componentes reutilizáveis. Inclui validação de formulário, feedback visual, acessibilidade, efeitos de glassmorphism e navegação entre páginas com React Router.`,
       category:
         "Feedback Visual e UX | Glassmorphism Design | Componentização Reutilizável",
       techStack: [react, js, html, css],
