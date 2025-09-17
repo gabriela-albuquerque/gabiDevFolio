@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou a Gabriela Albuquerque
 
-Bem-vindo(a) ao repositório do meu **portfólio**: [gabrielabalbuquerque.vercel.app](https://vercel.com/gabrielabalbuquerque) 🚀
+Bem-vindo(a) ao repositório do meu **portfólio**: [gabi-dev-folio.vercel.app](https://gabi-dev-folio.vercel.app/) 🚀
 
 Este portfólio reúne alguns dos projetos que desenvolvi durante minha jornada como **desenvolvedora frontend**, aplicando boas práticas e explorando tecnologias modernas.
 

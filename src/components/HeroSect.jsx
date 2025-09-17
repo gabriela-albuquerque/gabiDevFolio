@@ -65,7 +65,7 @@ export const HeroSect = () => {
                 a projetos.
               </motion.span>
             </div>
-            <div className="buttons max-sm:absolute bottom-10 w-full flex max-md:flex-col text-white gap-3 text-[10px] tracking-widest pl-4 md:pl-5 mt-5">
+            <div className="buttons max-sm:absolute bottom-[5rem] w-full flex max-md:flex-col text-white gap-3 text-[10px] tracking-widest pl-4 md:pl-5 mt-5">
               <motion.a
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -137,7 +137,7 @@ export const HeroSect = () => {
               src={heroIllustration}
               alt=""
             />
-            <div className="absolute bottom-[9rem] md:bottom-[4.25rem]">
+            <div className="absolute left-[14.5rem] bottom-[11rem] md:bottom-[4.25rem]">
               <div className="scroll-icon">
                 <motion.img
                   initial={{ opacity: 0 }}
