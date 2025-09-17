@@ -109,7 +109,7 @@ export const AboutMe = () => {
           </div>
           <div className="project-title h-screen flex justify-center items-center mt-20 md:mt-0">
             <div className="bg-color1Hover/40 rounded-full absolute size-80 blur-[100px] z-10"></div>
-            <div className="z-30 font-extrabold uppercase text-white leading-snug md:leading-snug text-5xl md:text-8xl tracking-wide">
+            <div className="z-30 font-extrabold uppercase text-white leading-snug md:leading-snug text-4xl md:text-8xl tracking-wide">
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
